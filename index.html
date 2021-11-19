@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:100,300,400,700,900" rel="stylesheet">
+   <!-- style.css  -->
+  <link rel="stylesheet" href="assets/css/index.css">
+   <!-- fontawesome cdn link -->
+  <script src='https://kit.fontawesome.com/79baca8388.js' crossorigin='anonymous'></script>
+  <title>E-Commerce Website</title>
+</head>
+
+<body id="top">
+  <!-- ==============header menu section starts here============== -->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div id="my-logo">
+              <img src="assets/img/logo6.jpg" alt="logo" srcset="" height="40px" , width="70px">
+              <p id="logo-base">Shop Online</p>
+            </div>
+            <li class="nav-item">
+              <a id="Home" class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a id="Product" class="nav-link active" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a id="Category" class="nav-link active" href="category.html" tabindex="-1"
+                aria-disabled="true">Category</a>
+            </li>
+            <li class="nav-item">
+              <a id="About" class="nav-link active" href="about.html" tabindex="-1" aria-disabled="true">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a id="Contact" class="nav-link active" href="contact.html" tabindex="-1" aria-disabled="true">Contact
+                Us</a>
+            </li>
+          </ul>
+          <div class="search mr-3" style="margin-right:15px;width:13%">
+            <a href="search.html" class="btn btn-sm btn-outline-primary" style="width: 100%;color: #fcfdff;
+            border-color: #ffffff;">
+              Search
+            </a>
+          </div>
+          <div class="cart">
+            <a href="cart.html">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <span class="badge badge-pill badge-primary" style="border: 2px solid white;border-radius: 1.25rem;    font-size: 0.6em;background-color: white;color:black;
+              ">24</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- ==============header menu section ends here============== -->
+
+
+  <!-- ==============header carousel section starts here============== -->
+
+  <section id="my-slider">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/img/img14.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mega Summer Sale!!</h5>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/img7 (2).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sale Is Live Now</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/img7 (1).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Grab Upto 50% Discount </h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- ==============header carousel section starts here============== -->
+
+  <!-- ==============shop by category starts here============== -->
+  <section id="category">
+    <h1 class="category-headline">Shop By Category</h1>
+    <div id="category-card" class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 col-12">
+          <img src="assets/img/lp6 (4).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. </p>
+            <button class="category-button"><a href="category.html">Shop Now</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 col-12">
+          <img src="assets/img/img5 (10).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <button class="category-button"><a href="category.html">Shop Now</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 col-12">
+          <img src="assets/img/img5 (2).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <button class="category-button"><a href="category.html">Shop Now</a></button>
+          </div>
+        </div>
+      </div>
+      <div id="box-3" class="col">
+        <div class="card h-100 col-12">
+          <img src="assets/img/img7 (7).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <button class="category-button"><a href="category.html">Shop Now</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==============shop by category ends here============== -->
+
+  <!-- ==============products starts here============== -->
+  <section id="latest-product">
+    <h1 class="category-headline">Latest Product</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div id="LP1" class="col">
+        <div class="card  col-12">
+          <img id="img-lp1" src="assets/img/img5 (8).jpg" class="card-img-top" alt="...">
+          <div id="card-bottom" class="card-body">
+            <i class="far fa-heart fa-2x"><span class="details"><a href="product-detail.html">Product
+                  Details</a></span></i>
+            <div class="stars"><i class="far fa-star "></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="LP2" class="col">
+        <div class="card  col-12">
+          <img id="img-lp2" src="assets/img/lp12.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="far fa-heart fa-2x"><span class="details"><a href="product-detail.html">Product
+                  Details</a></span></i>
+            <div class="stars"><i class="far fa-star "></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="LP3" class="col">
+        <div class="card  col-12">
+          <img id="img-lp3" src="assets/img/lp6 (2).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="far fa-heart fa-2x"><span class="details"><a href="product-detail.html">Product
+                  Details</a></span></i>
+            <div class="stars"><i class="far fa-star "></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="LP4" class="col">
+        <div class="card  col-12">
+          <img id="img-lp4" src="assets/img/lp6 (3).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="far fa-heart fa-2x"><span class="details"><a href="product-detail.html">Product
+                  Details</a></span></i>
+            <div class="stars"><i class="far fa-star "></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="LP5" class="col">
+        <div class="card  col-12">
+          <img id="img-lp5" src="assets/img/lp7.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="far fa-heart fa-2x"><span class="details"><a href="product-detail.html">Product
+                  Details</a></span></i>
+            <div class="stars"><i class="far fa-star "></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="LP6" class="col">
+        <div class="card  col-12">
+          <img id="img-lp6" src="assets/img/lp10.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="far fa-heart fa-2x"><span class="details"><a href="product-detail.html">Product
+                  Details</a></span></i>
+            <div class="stars"><i class="far fa-star "></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+              <i class="far fa-star "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==============products ends here============== -->
+
+
+  <!-- ==============feature starts here============== -->
+  <section id="our-features">
+    <h1 class="category-headline">Our Features</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div id="our-features-col1" class="col">
+        <div id="our-features-card-body1" class="card h-100  col-12">
+          <i id="truck" class="fas fa-truck fa-3x"></i>
+          <div class="card-body">
+            <h5 class="card-title">Free Shipping</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur ea sint autem vel atque hic natus, error optio inventore ab, odit rem nihil dolor nobis sunt
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="our-features-col2" class="col">
+        <div id="our-features-card-body2" class="card h-100  col-12">
+          <i id="credit-card" class="fas fa-credit-card fa-3x"></i>
+          <div class="card-body">
+            <h5 class="card-title">Secure Payment</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              saepe ipsa sapiente veritatis eum earum aliquam aliquid labore repellendus. </p>
+          </div>
+        </div>
+      </div>
+      <div id="our-features-col3" class="col">
+        <div id="our-features-card-body3" class="card h-100  col-12">
+          <i id="phone" class="fas fa-phone fa-3x"></i>
+          <div class="card-body">
+            <h5 class="card-title">24*7 Help Centers</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Illum voluptatibus voluptates possimus ex similique temporibus quas id tenetur
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==============services ends here============== -->
+
+  <!-- ==============footer starts here============== -->
+  <footer id="footer">
+    <section id="box1">
+      <div id="footer-img" class="up">
+        <img src="assets/img/logo6.jpg" alt="logo" srcset="" height="40px" , width="70px">
+        <p id="logo-base">Shop Online</p>
+      </div>
+      <div>
+        <i class='fas   fa-map-marker-alt fa-2x'> </i>
+        <i class='fas fa-phone-alt fa-2x'> </i>
+        <i class='fas fa-envelope fa-2x'> </i>
+        <i class='fab fa-instagram fa-2x'></i>
+      </div>
+      <div id="up1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi sed, dolor vel quis suscipit quidem rem,
+        accusamus ducimus nihil explicabo beatae cumque id voluptas debitis, voluptates inventore maiores tenetur Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit.
+      </div>
+    </section>
+    <section id="box2">
+      <div class="up">
+        Quick Links
+      </div>
+      <div id="up2">
+        <div><i class="fas fa-circle"><span>About</span></i></div>
+        <div><i class="fas fa-circle"><span>Offers & Discount</span></i></div>
+        <div><i class="fas fa-circle"><span>Get Coupon</span></i></div>
+        <div><i class="fas fa-circle"><span>Contact Us</span></i></div>
+        <div><i class="fas fa-circle"><span>New Deals</span></i></div>
+        <div><i class="fas fa-circle"><span>Settings</span></i></div>
+      </div>
+    </section>
+    <section id="box3">
+      <div class="up">
+        New Products
+      </div>
+      <div id="up3">
+        <div><i class="fas fa-circle"><span>Woman Cloths</span></i></div>
+        <div><i class="fas fa-circle"><span>Man's Cloths</span></i></div>
+        <div><i class="fas fa-circle"><span>Children's Cloths</span></i></div>
+        <div><i class="fas fa-circle"><span>Fashion Accessories</span></i></div>
+        <div><i class="fas fa-circle"><span>Footwear's</span></i></div>
+      </div>
+    </section>
+    <section id="box4">
+      <div class="up">
+        Support
+      </div>
+      <div id="up4">
+        <div><i class="fas fa-circle"><span>Frequently Asked Questions</span></i></div>
+        <div><i class="fas fa-circle"><span>Terms & Conditions</span></i></div>
+        <div><i class="fas fa-circle"><span>Privacy Policy</span> </i></div>
+        <div><i class="fas fa-circle"><span>Report Payment Issues</span></i></div>
+        <div id="up-button">
+          <a id="button" href="#top">
+            <i class="fas fa-arrow-alt-circle-up fa-2x"></i></a>
+          <p>Click Here To Move Up</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <p class="text-footer">
+    Copyright &copy ;2027-Let's Educate.com-All rights are reserved
+  </p>
+  <!-- ==============footer ends here============== -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/product.css">
+  <link rel="stylesheet" href="assets/css/product-detail.css">
+  <link rel="stylesheet" href="assets/css/category.css">
+  <script src='https://kit.fontawesome.com/79baca8388.js' crossorigin='anonymous'></script>
+  <title>E-Commerce Website</title>
+</head>
+
+<body id="top">
+  <!-- ==============header menu section starts here============== -->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div id="my-logo">
+              <img src="assets/img/logo6.jpg" alt="logo" srcset="" height="40px" , width="70px">
+              <p id="logo-base">Shop Online</p>
+            </div>
+            <li class="nav-item">
+              <a id="Home" class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a id="Product" class="nav-link active" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a id="Category" class="nav-link active" href="category.html" tabindex="-1"
+                aria-disabled="true">Category</a>
+            </li>
+            <li class="nav-item">
+              <a id="About" class="nav-link active" href="about.html" tabindex="-1" aria-disabled="true">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a id="Contact" class="nav-link active" href="contact.html" tabindex="-1" aria-disabled="true">Contact
+                Us</a>
+            </li>
+          </ul>
+          <div class="search mr-3" style="margin-right:15px;width:13%">
+            <a href="search.html" class="btn btn-sm btn-outline-primary" style="width: 100%;color: #fcfdff;
+            border-color: #ffffff;">
+              Search
+            </a>
+          </div>
+          <div class="cart">
+            <a href="cart.html">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <span class="badge badge-pill badge-primary" style="border: 2px solid white;border-radius: 1.25rem;    font-size: 0.6em;background-color: white;color:black;
+              ">24</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- =========================== header ends here ====================== -->
+
+  <!-- ==============Checkout starts here============== -->
+  <section class="Checkout  my-3" id="Checkout">
+    <div class="container ">
+      <div class="section_title text-center mb-5">
+        <h1 class="text-capitalize">Checkout</h1>
+      </div>
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-8">
+          <!-- Card -->
+          <div class="card bg_checkout_1 pb-5">
+            <div class="card-body">
+              <h5 class="mb-5">Billing details</h5>
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6">
+                  <!-- First name -->
+                  <div class="form-group mb-0 mb-lg-4">
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" class="form-control mb-0 mb-lg-2">
+                  </div>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-lg-6">
+                  <!-- Last name -->
+                  <div class="form-group md-outline">
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" class="form-control">
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="form18">Phone</label>
+                <input type="number" id="form18" class="form-control">
+              </div>
+              <!-- Email address -->
+              <div class="form-group">
+                <label for="form19">Email address</label>
+                <input type="email" id="form19" class="form-control">
+              </div>
+              <!-- Country -->
+              <div class="d-flex flex-wrap">
+                <div class="w-100" style="height:70px">
+                  <label for="form19">Country</label>
+                  <div>
+                    <!-- <input type="text" id="form19" class="form-control" placeholder="Choose your opyion"> -->
+                    <span><select class="custom-select form-group" style="padding: 7px;padding-right: 661px;border-radius: 5px;font-size: 1rem;font-weight: 400;line-height: 1.5;width:100%;color:grey; background-color: #fff; background-clip: padding-box; border: 1px solid #ced4da; -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: .25rem; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
+                        <option value="" selected="">Choose your option</option>
+                        <option value="1">India</option>
+                        <option value="2">Nepal</option>
+                        <option value="3">Sri Lanka</option>
+                      </select>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Address Part 1 -->
+              <div class="form-group" style=" margin-bottom: 5px;">
+                <label for="form14">Address Line 1</label>
+                <input type="text" id="form14" placeholder="House number and street name" class="form-control">
+              </div>
+              <!-- Address Part 2 -->
+              <div class="form-group" style=" margin-bottom: 5px;">
+                <label for="form15">Address Line 2</label>
+                <input type="text" id="form15" placeholder="Apartment, suite, unit etc. (optional)" class="form-control">
+              </div>
+              <!-- Postcode / ZIP -->
+              <div class="form-group" style=" margin-bottom: 5px;">
+                <label for="form16">Postcode / ZIP</label>
+                <input type="text" id="form16" class="form-control">
+              </div>
+              <!-- Town / City -->
+              <div class="form-group" style=" margin-bottom: 5px;">
+                <label for="form17">Town / City</label>
+                <input type="text" id="form17" class="form-control">
+              </div>
+              <!-- Additional information -->
+              <div class="form-group" style=" margin-bottom: 5px;">
+                <label for="form76">Additional information</label>
+                <textarea id="form76" class="md-textarea form-control" rows="4"></textarea>
+              </div>
+              <!-- <button class="btn btn-success"><i class="fa fa-check"></i>Purchase</button> -->
+              <div class="text-center" style="margin-top:15px">
+                <a href="order-confirm.html" class="btn btn-primary">
+                  <i class="fa fa-check mr-2"></i>Purchase
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-lg-4 bg_checkout_1 h-25 rounded">
+          <!-- Card -->
+          <div class="mb-3">
+            <div class="pt-4">
+              <h1 class="mb-3">Order summary</h1>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-2">
+                  <span>Product name 1</span>
+                  <span>x2</span>
+                  <span>₹25.98</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-2">
+                  <span>Product name 2</span>
+                  <span>x2</span>
+                  <span>₹25.98</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-top px-0 mb-3">
+                  <div>
+                    <strong>Total amount</strong>
+                    <strong>
+                      <p class="mb-0">(including VAT)</p>
+                    </strong>
+                  </div>
+                  <span><strong>₹53.98</strong></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+        <!--Grid column-->
+      </div>
+    </div>
+  </section>
+  <!-- ==============Checkout ends here============== -->
+
+  <!-- ================== footer starts here ================= -->
+  <footer id="footer">
+    <section id="box1">
+      <div id="footer-img" class="up">
+        <img src="assets/img/logo6.jpg" alt="logo" srcset="" height="40px" , width="70px">
+        <p id="logo-base">Shop Online</p>
+      </div>
+      <div>
+        <i class='fas fa-map-marker-alt fa-2x'> </i>
+        <i class='fas fa-phone-alt fa-2x'> </i>
+        <i class='fas fa-envelope fa-2x'> </i>
+        <i class='fab fa-instagram fa-2x'></i>
+      </div>
+      <div id="up1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi sed, dolor vel quis suscipit quidem rem,
+        accusamus ducimus nihil explicabo beatae cumque id voluptas debitis, voluptates inventore maiores tenetur Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit.
+      </div>
+    </section>
+    <section id="box2">
+      <div class="up">
+        Quick Links
+      </div>
+      <div id="up2">
+        <div><i class="fas fa-circle"><span>About</span></i></div>
+        <div><i class="fas fa-circle"><span>Offers & Discount</span></i></div>
+        <div><i class="fas fa-circle"><span>Get Coupon</span></i></div>
+        <div><i class="fas fa-circle"><span>Contact Us</span></i></div>
+        <div><i class="fas fa-circle"><span>New Deals</span></i></div>
+        <div><i class="fas fa-circle"><span>Settings</span></i></div>
+      </div>
+    </section>
+    <section id="box3">
+      <div class="up">
+        New Products
+      </div>
+      <div id="up3">
+        <div><i class="fas fa-circle"><span>Woman Cloths</span></i></div>
+        <div><i class="fas fa-circle"><span>Man's Cloths</span></i></div>
+        <div><i class="fas fa-circle"><span>Children's Cloths</span></i></div>
+        <div><i class="fas fa-circle"><span>Fashion Accessories</span></i></div>
+        <div><i class="fas fa-circle"><span>Footwear's</span></i></div>
+      </div>
+    </section>
+    <section id="box4">
+      <div class="up">
+        Support
+      </div>
+      <div id="up4">
+        <div><i class="fas fa-circle"><span>Frequently Asked Questions</span></i></div>
+        <div><i class="fas fa-circle"><span>Terms & Conditions</span></i></div>
+        <div><i class="fas fa-circle"><span>Privacy Policy</span> </i></div>
+        <div><i class="fas fa-circle"><span>Report Payment Issues</span></i></div>
+        <div id="up-button">
+          <a id="button" href="#top">
+            <i class="fas fa-arrow-alt-circle-up fa-2x"></i></a>
+          <p>Click Here To Move Up</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <p class="text-footer">
+    Copyright &copy ;2027-Let's Educate.com-All rights are reserved
+  </p>
+
+  <!-- ===================== footer ends here ==================== -->
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

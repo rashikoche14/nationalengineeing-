@@ -1,0 +1,24 @@
+.card-body {
+    background: linear-gradient(135deg,#ff5a699c,#fa5e9f,#e309beab);
+    flex: 1 1 auto;
+    box-shadow: 0 2px 4px rgb(0 0 0), 0 4px 16px 0 rgb(225 188 188);
+    padding: 0.5rem 0.5rem;
+    border: 2px solid black;
+}
+h5 a {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+a:hover{
+    color:white;
+}
+#category-page{margin-bottom: 0px;
+    padding-bottom: 30px;
+    background-color: #80808087;
+}
+#category-headline2{
+    padding-top:20px;
+    text-align: center;
+    display: block;
+}

@@ -1,0 +1,19 @@
+#silde-1-img{
+    width: 100%!important;
+}
+#silde-btn1,#silde-btn2,#silde-btn3{
+width: 100% !important;
+
+}
+#silde-btn3{
+    height:100px;
+}
+.carousel-indicators{
+    margin-bottom:6rem;}
+.w-50{
+    height:100px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: transparent;
+    width:150px;
+}
